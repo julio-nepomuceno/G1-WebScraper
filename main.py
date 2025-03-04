@@ -16,4 +16,3 @@ for i, noticia in enumerate(principais_noticias[:4], 1):
     print(colored(f'{i}° {titulo}', 'light_yellow'))
     print('Link:', end=' ')
     print(colored(f'{link}', 'light_cyan'))
-print(colored('© Júlio', 'dark_grey'))
