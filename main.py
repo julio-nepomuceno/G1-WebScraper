@@ -22,6 +22,5 @@ if requisicao.status_code == 200:
             print(colored(f'{i}° {titulo}', 'light_yellow'))
             print('Link:', end=' ')
             print(colored(f'{link}', 'light_cyan'))
-        print(colored('© Júlio', 'dark_grey'))
 else:
     print(colored(f'Erro ao acessar o site! (código: {requisicao.status_code})', 'red'))
